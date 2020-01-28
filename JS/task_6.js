@@ -4,9 +4,7 @@ let total = 0;
 do {
     input = prompt('Введите число');
 
-    const userInput = Number(input);
-
-    total += userInput;
+    total += Number(input);
 } while (input !== null);
 
 alert(`Общая сумма числел равна ${total}`);
